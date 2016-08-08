@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/waiting_iphone_bg"
+    android:gravity="center"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/toast_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dip"
+        android:gravity="center"
+        android:maxWidth="200dip"
+        android:text="图片保存成功..."
+        android:textColor="#ffffff" />
+
+</LinearLayout>

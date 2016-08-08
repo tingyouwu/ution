@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/layout_background"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/flb_select_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:listSelector="@drawable/selector_white"
+        android:scrollbars="none" />
+
+</RelativeLayout>

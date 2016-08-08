@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/selector_white"
+    android:layout_width="fill_parent"
+    android:layout_height="45dip"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/report_select_nav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_nav"
+        android:layout_marginRight="12dp"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:layout_marginLeft="12dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/report_select_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请选择部门"
+        android:textColor="@color/gray_font_2"
+        android:textSize="14sp"/>
+
+</RelativeLayout>

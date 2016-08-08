@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dip"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:text="我的商机"
+        android:layout_centerInParent="true"
+        android:id="@+id/titlemenu_label_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/titlemenu_label_title"
+        android:id="@+id/titlemenu_label_nav"
+        android:layout_width="15dip"
+        android:layout_height="15dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:src="@drawable/img_nav_white_down" />
+
+</RelativeLayout>

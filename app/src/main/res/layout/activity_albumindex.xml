@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/layout_background"
+    android:fadingEdge="none"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/album_index_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:numColumns="2"
+        android:scrollbars="none" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:background="#cc000000" >
+
+        <TextView
+            android:id="@+id/album_index_maxlimit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dip"
+            android:text="最多能选择3张图片"
+            android:textColor="@color/white" />
+
+        <net.xtion.crm.widget.FrameButton
+            android:id="@+id/album_index_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dip"
+            android:minWidth="50dip"
+            android:padding="5dip"
+            android:text="完成"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

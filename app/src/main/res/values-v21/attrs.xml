@@ -1,0 +1,274 @@
+<!--
+  Copyright 2011 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+-->
+
+<resources>
+
+    <declare-styleable name="ManagerMembersLabel">
+        <attr name="managerlabelText" format="string" />
+        <attr name="memberslabelText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="LabelEditText">
+        <attr name="labelText" format="string" />
+        <attr name="hintText" format="string" />
+        <attr name="isUnderline" format="boolean" />
+        <attr name="isRequired" format="boolean" />
+        <attr name="isReadOnly" format="boolean" />
+        <attr name="isHidden" format="boolean" />
+        <attr name="isCanlable" format="boolean"/>
+        <attr name="singleline" format="boolean" />
+        <attr name="maxContentLength" format="integer" />
+        <attr name="minContentLength" format="integer" />
+        <attr name="leftLabelTextColor" format="color"/>
+        <attr name="contentTextColor" format="color"/>
+        <attr name="letType">
+            <enum name="Text" value="1" />
+            <enum name="SingleChoice" value="2" />
+            <enum name="Date" value="3" />
+            <enum name="TextArea" value="4" />
+            <enum name="Money" value="5" />
+            <enum name="Int" value="6" />
+            <enum name="Telephone" value="7" />
+            <enum name="Location" value="8" />
+            <enum name="Tree" value="9" />
+            <enum name="MutipleChoice" value="10" />
+            <enum name="Password" value="11" />
+            <enum name="Decimal" value="12" />
+            <enum name="DateTime" value="13" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="FormItemView">
+        <attr name="formLabel" format="string" />
+        <attr name="formHint" format="string" />
+        <attr name="formRequired" format="boolean" />
+        <attr name="formReadOnly" format="boolean" />
+        <attr name="formMaxLength" format="integer" />
+        <attr name="formSelectOption" format="string" />
+        <attr name="formDefaultDate" format="string" />
+        <attr name="formContentType">
+            <enum name="Text" value="1" />
+            <enum name="Int" value="2" />
+            <enum name="Password" value="3" />
+            <enum name="Decimal" value="4" />
+            <enum name="Money" value="5" />
+            <enum name="SingleSelect" value="6" />
+            <enum name="Location" value="8" />
+            <enum name="Date" value="9" />
+            <enum name="DateTime" value="10" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="VisitPlanButton">
+        <attr name="planCount" format="integer" />
+        <attr name="planText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ReportPrecentButton">
+        <attr name="reportvalue" format="integer" />
+        <attr name="reportLabel" format="string" />
+        <attr name="reportunit">
+            <enum name="count" value="1" />
+            <enum name="money" value="2" />
+            <enum name="precent" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ReportSelectButton">
+        <attr name="reportSelectLabel" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="progressIndeterminate" format="boolean" />
+        <attr name="barColor" format="color" />
+        <attr name="rimColor" format="color" />
+        <attr name="rimWidth" format="dimension" />
+        <attr name="spinSpeed" format="float" />
+        <attr name="barSpinCycleTime" format="integer" />
+        <attr name="circleRadius" format="dimension" />
+        <attr name="fillRadius" format="boolean" />
+        <attr name="barWidth" format="dimension" />
+        <attr name="linearProgress" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="UnreadView">
+        <attr name="unread" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CheckBoxLabel">
+        <attr name="labelTextColor" format="integer" />
+        <attr name="labelTextSize" format="integer" />
+        <attr name="label" format="string" />
+    </declare-styleable>
+    <declare-styleable name="SubCustomerListView">
+        <attr name="queryType">
+            <enum name="sub" value="104" />
+            <enum name="total" value="115" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ContactMultiChoiceGridView">
+        <attr name="operatorPlus" format="boolean" />
+        <attr name="operatorMin" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CommentAddView">
+        <attr name="hint" format="string" />
+    </declare-styleable>
+    <declare-styleable name="BusinessDynamicMenuTab">
+        <attr name="tabText" format="string" />
+        <attr name="tabIcon" format="reference" />
+        <attr name="showline" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="SlidingMenu">
+        <attr name="mode">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="viewAbove" format="reference" />
+        <attr name="viewBehind" format="reference" />
+        <attr name="behindOffset" format="dimension" />
+        <attr name="behindWidth" format="dimension" />
+        <attr name="behindScrollScale" format="float" />
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowWidth" format="dimension" />
+        <attr name="fadeEnabled" format="boolean" />
+        <attr name="fadeDegree" format="float" />
+        <attr name="selectorEnabled" format="boolean" />
+        <attr name="selectorDrawable" format="reference" />
+    </declare-styleable>
+    <!--
+    <declare-styleable name="PullToRefresh">
+        <attr name="ptrAdapterViewBackground" format="reference|color" />
+        <attr name="ptrHeaderBackground" format="reference|color" />
+        <attr name="ptrHeaderTextColor" format="reference|color" />
+        <attr name="ptrHeaderSubTextColor" format="reference|color" />
+        <attr name="ptrMode">
+            <flag name="disabled" value="0x0" />
+            <flag name="pullDownFromTop" value="0x1" />
+            <flag name="pullUpFromBottom" value="0x2" />
+            <flag name="both" value="0x3" />
+        </attr>
+        <attr name="ptrShowIndicator" format="reference|boolean" />
+        <attr name="ptrDrawable" format="reference" />
+    </declare-styleable>
+    -->
+    <declare-styleable name="MultiChoiceAdapter">
+
+        <!-- Defines the look of selected list items -->
+        <attr name="selectedItemBackground" format="reference|color" />
+        <!-- Defines what happens when an item is clicked and the action mode was already active -->
+        <attr name="itemClickInActionMode">
+
+            <!--
+                 Changes the selection state of the clicked item, just as if it had been 
+                 long clicked. This is what the native MULTICHOICE_MODAL mode of List does,
+                  and what almost every app does
+
+            -->
+            <enum name="selectItem" value="0" />
+            <!--
+                 Opens the clicked item, just as if it had been clicked outside of the action 
+                 mode. This is what the Gmail app does
+
+            -->
+            <enum name="openItem" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <attr name="multiChoiceAdapterStyle" format="reference" />
+
+    <declare-styleable name="SwipeBackLayout">
+        <attr name="EdgeSize" format="dimension" />
+        <attr name="EdgeFlag" format="enum" />
+        <attr name="ShadowLeft" format="reference" />
+        <attr name="ShadowRight" format="reference" />
+        <attr name="ShadowBottom" format="reference" />
+    </declare-styleable>
+
+    <attr name="SwipeBackLayoutStyle" format="reference" />
+
+    <declare-styleable name="CropImageView">
+        <attr name="guidelines">
+            <enum name="on" value="2" />
+            <enum name="onTouch" value="1" />
+            <enum name="off" value="0" />
+        </attr>
+        <attr name="fixAspectRatio" format="boolean" />
+        <attr name="aspectRatioX" format="integer" />
+        <attr name="aspectRatioY" format="integer" />
+        <attr name="imageResource" format="reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="FilterButton">
+        <attr name="selectedResource" format="reference" />
+        <attr name="unSelectedResource" format="reference" />
+        <attr name="buttonSelectedColor" format="reference" />
+        <attr name="butonUnSelectedColor" format="reference" />
+        <attr name="arrowShowing" format="boolean"/>
+        <attr name="text" format="string" />
+        <attr name="selected" format="boolean"/>
+    </declare-styleable>
+    
+    <declare-styleable name="CordovaWebView">
+        <attr name="disableScroll" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="NavigationBar">
+        <attr name="NavigationTextColor" format="reference" />
+        <attr name="NavigationTextSize" format="integer" />
+    </declare-styleable>
+    
+       <!-- Defines the custom XML attributes supported for a HorizontalListView -->
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+    <declare-styleable name="Rotate3dAnimation">
+        <attr name="rollType" format="enum">
+            <enum name="x" value="0"/>
+            <enum name="y" value="1"/>
+            <enum name="z" value="2"/>
+        </attr>
+        <attr name="fromDeg" format="float" />
+        <attr name="toDeg" format="float" />
+        <attr name="pivotX" format="fraction"/>
+        <attr name="pivotY" format="fraction" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="CrmItemView">
+        <attr name="itemText" format="string" />
+        <attr name="itemImage" format="reference" />
+        <attr name="itemUnderline" format="boolean" />
+        <attr name="itemDivide" format="boolean" />
+    </declare-styleable>
+</resources>

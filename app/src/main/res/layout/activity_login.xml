@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f1f4f7"
+    android:fadeScrollbars="true" >
+
+    <ImageView
+        android:id="@+id/login_icon"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dip"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/launcher_icon" />
+
+    <com.wty.ution.widget.login.LoginInputView
+        android:id="@+id/login_inputview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_icon" />
+
+    <com.wty.ution.widget.login.LoginProgressView
+        android:id="@+id/login_progressview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/login_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dip"
+        android:gravity="bottom"
+        android:layout_marginRight="20dip"
+        android:textSize="12sp"
+        android:text="1111"
+        android:textColor="@color/gray_font_3"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/login_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginRight="20dip"
+        android:textSize="14sp"
+        android:text="新用户注册"
+        android:textColor="@color/blue_crm3"
+        android:visibility="gone"/>
+
+</RelativeLayout>

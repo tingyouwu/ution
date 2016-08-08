@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_progresslayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_margin="20dip"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/login_progressbar"
+        style="@style/progressbarStyle_Horizontal_Blue"
+        android:layout_width="fill_parent"
+        android:layout_height="3dip"/>
+
+    <TextView
+        android:id="@+id/login_progresstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:text="初始化数据中…"
+        android:textColor="@color/gray_font_2"
+        android:textSize="14sp" />
+
+</LinearLayout>

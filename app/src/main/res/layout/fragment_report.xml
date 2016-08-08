@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/layout_background" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+            <com.wty.ution.widget.report.CountReportListView
+                android:id="@+id/logistics_report_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:cacheColorHint="#00000000"
+                android:divider="@color/white"
+                android:dividerHeight="0dp"
+                android:listSelector="#00000000" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_alignParentBottom="true"
+                android:background="@color/list_line" />
+
+    </RelativeLayout>
+
+</ScrollView>

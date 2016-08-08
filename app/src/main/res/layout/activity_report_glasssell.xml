@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/layout_background">
+
+    <com.wty.ution.widget.filter.base.FilterLabelScrollBar
+        android:id="@+id/report_glass_scrollbar"
+        android:layout_width="fill_parent"
+        android:layout_height="58dip"
+        android:focusable="false" />
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/list_line" />
+
+            <LinearLayout
+                android:gravity="center"
+                android:background="@drawable/img_bg_report"
+                android:layout_width="fill_parent"
+                android:layout_height="180dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/report_glass_layout1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <com.wty.ution.widget.report.ReportPrecentButton
+                        android:id="@+id/report_glass_count"
+                        app:reportLabel="发货总量"
+                        app:reportvalue="1"
+                        app:reportunit="count"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"/>
+
+                    <com.wty.ution.widget.report.ReportPrecentButton
+                        android:id="@+id/report_glass_cost"
+                        app:reportLabel="总成本"
+                        app:reportvalue="2"
+                        app:reportunit="money"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/report_glass_layout2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <com.wty.ution.widget.report.ReportPrecentButton
+                        android:id="@+id/report_glass_sell"
+                        app:reportLabel="销售额"
+                        app:reportvalue="1"
+                        app:reportunit="money"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"/>
+
+                    <com.wty.ution.widget.report.ReportPrecentButton
+                        android:id="@+id/report_glass_profit"
+                        app:reportLabel="利润额"
+                        app:reportvalue="2"
+                        app:reportunit="money"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/report_glass_sheet"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <com.wty.ution.widget.filter.base.FilterLabelContainerView
+            android:id="@+id/report_glass_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+
+    </RelativeLayout>
+</LinearLayout>

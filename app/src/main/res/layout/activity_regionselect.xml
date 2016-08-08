@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/layout_background"
+    android:fadingEdge="none"
+    android:orientation="vertical" >
+
+    <com.wty.ution.widget.navigation.NavigationBar
+        android:id="@+id/region_select_navigationbar"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:gravity="center_vertical" />
+
+    <ListView
+        android:id="@+id/regionselect_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:dividerHeight="0dip" />
+
+</LinearLayout>

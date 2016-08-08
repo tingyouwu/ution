@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="login_txt_blue">#306C9E</color>
+    <color name="sticky_item">#fff</color>
+    <color name="sticky_item_text">#09c</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#FF666666</color>
+    <color name="gray_font_1">#666666</color>
+    <color name="gray_font_2">#333333</color>
+    <color name="gray_font_3">#999999</color>
+    <color name="gray_font_4">#e6e6e6</color>
+    <color name="gray_selector">#f2f2f2</color>
+    <color name="gray_selector2">#CDC1C5</color>
+
+    <color name="workflow_screeming_bg">#f5f8fa</color>
+
+    <color name="green">#FF4d8a45</color>
+    <color name="red">#E51C23</color>
+    <color name="yellow">#FFCC33</color>
+    <color name="deep_gray">#FFababab</color>
+    <color name="clear">#00000000</color>
+    <color name="lighter_gray">#ffcccccc</color>
+    <color name="light_gray">#D8D8D8</color>
+    <color name="light_blue">#5CACEE</color>
+    <color name="light_black">#343F51</color>
+    <color name="secondary_text">#ff999999</color>
+    <color name="solid_white">#ffffffff</color>
+    <color name="submit_bg">#959595</color>
+    <color name="orange">#ec8a1d</color>
+    <color name="backcolor">#e1e6e9</color>
+    <color name="timecolor">#0788c5</color>
+    <color name="writereviewcolor">#55676e</color>
+    <color name="popdialog">#d23c3c3c</color>
+
+    <drawable name="ab_bg_black">#00000000</drawable>
+
+    <color name="gold">#ffd700</color>
+    <color name="transparent">#00000000</color>
+    <color name="background">#fff1f1f1</color>
+    <color name="topbg_blue">#0099FF</color>
+    <color name="selected_item_background">#1077</color>
+    <color name="mca__default_selected_item_background">#1000</color>
+
+    <!-- new by xiaojing -->
+    <color name="deep_blue">#5e6d81</color>
+    <color name="most_blue">#206eab</color>
+    <color name="lighter_blue">#b6bfcc</color>
+    <color name="expand_item_blue">#D0D6DF</color>
+    <color name="main_page_bg">#e9ebec</color>
+    <color name="sendsms_edit">#2F91D8</color>
+    <color name="comment_line">#dbe8f3</color>
+    <color name="list_line">#DEDFE0</color>
+    <color name="transform">#6e6e6e</color>
+    <color name="tabbottom">#2A333E</color>
+    <color name="remember_psw">#83838D</color>
+
+    <!-- 群聊界面 -->
+    <color name="discuss_name_myself">#94b749</color>
+    <color name="discuss_name">#5987b7</color>
+    <color name="gps_address">#99a5b5</color>
+    <color name="time">#99a5b5</color>
+    <color name="commemd_time">#80aad2</color>
+    <color name="send_faild">#ef5656</color>
+    <color name="sending">#27ae60</color>
+    <color name="group_item">#243043</color>
+    <color name="group_divider">#05090e</color>
+    <color name="child_item">#161f2f</color>
+    <color name="child_divider">#161f2f</color>
+    <color name="child_label">#6b7789</color>
+    <color name="right_menu">#161f2f</color>
+    <color name="custom_atetion">#83B755</color>
+    <color name="custom_atetioned">#CDCFD1</color>
+    <color name="title_gray">#9AA5B7</color>
+    <color name="divider_gray">#DCDEE3</color>
+    <color name="title_blue">#3088C8</color>
+    <color name="recorder_bg">#EAEBEF</color>
+    <color name="recorder_button_bg">#EAEBEE</color>
+
+    <!-- app_msg -->
+    <color name="alert">#CC0000</color>
+    <color name="confirm">#FF8800</color>
+    <color name="info">#669900</color>
+
+    <!-- customer search -->
+    <color name="search_text">#5d6b7e</color>
+    <color name="blue">#206eab</color>
+
+    <!-- dialog -->
+    <color name="dialog_deepblue">#2169a1</color>
+    <color name="dialog_gray">#eaedf0</color>
+    <!-- 我界面 -->
+    <color name="myself_title">#646869</color>
+    <color name="myself_content_title">#6D7A8A</color>
+    <color name="myself_month_circle">#FFB1B4</color>
+    <color name="myself_year_circle">#EEF38C</color>
+    <color name="tab_background">#f7f7f7</color>
+    <color name="blue_crm">#1082ff</color>
+    <color name="blue_crm2">#5bb5f0</color>
+    <color name="blue_crm3">#25B6ed</color>
+    <color name="green_crm">#78c06e</color>
+    <color name="orange_crm">#f5a623</color>
+    <color name="font_blue">#314c83</color>
+    <color name="font_green">#c1e0aa</color>
+    <color name="layout_background">#f8f8f8</color>
+    <color name="repository_expand_background">#6597D4</color>
+    <color name="repository_delete_background">#e56060</color>
+
+    <!-- A light Holo shade of blue -->
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <!-- A light Holo shade of gray -->
+    <color name="holo_gray_light">#33999999</color>
+    <!-- A light Holo shade of green -->
+    <color name="holo_green_light">#ff99cc00</color>
+    <!-- A light Holo shade of red -->
+    <color name="holo_red_light">#ffff4444</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <!-- A dark Holo shade of green -->
+    <color name="holo_green_dark">#ff669900</color>
+    <!-- A dark Holo shade of red -->
+    <color name="holo_red_dark">#ffcc0000</color>
+    <!-- A Holo shade of purple -->
+    <color name="holo_purple">#ffaa66cc</color>
+    <!-- A light Holo shade of orange -->
+    <color name="holo_orange_light">#ffffbb33</color>
+    <!-- A dark Holo shade of orange -->
+    <color name="holo_orange_dark">#ffff8800</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <!-- A really bright Holo shade of gray -->
+    <color name="holo_gray_bright">#33CCCCCC</color>
+
+    <color name="dynamic_blue_bg_title">#4b70a9</color>
+    <color name="dynamic_white">#f2f5f9</color>
+    <color name="dynamic_orange">#ff943e</color>
+    <color name="dynamic_blue_text_prise">#4671ad</color>
+
+    <color name="dynamic_summary_blue_text">#5370b1</color>
+
+    <color name="float_transparent">#00000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="text_color">#575757</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="material_blue_grey_90">#ff263238</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+
+    <color name="message_summary_bg_color">#f8f8f8</color>
+    <color name="message_sell_mark_text_color">#608f59</color>
+    <color name="checkin_time_text_color">#139dd1</color>
+
+    <color name="attendance_detail_offduty_text_color">#bc7e17</color>
+    <color name="attendance_detail_onduty_text_color">#417505</color>
+    <color name="visit_item_add_bg_color">#e6f8ff</color>
+
+    <!--font color for mission-->
+    <color name="blue_font_2">#1D529C</color>
+    <color name="grey_font_5">#939393</color>
+    <color name="grey_font_6">#9B9B9B</color>
+</resources>

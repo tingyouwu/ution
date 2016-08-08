@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="1dip"
+    android:orientation="vertical" >
+
+    <com.wty.ution.widget.SquareLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/item_albumselected_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_upload_default_left" />
+
+        <LinearLayout
+            android:id="@+id/item_albumselected_cblayout"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dip"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/item_albumselected_cb"
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:background="@drawable/checkbox_selector"
+                android:button="@null"
+                android:checked="true" />
+        </LinearLayout>
+    </com.wty.ution.widget.SquareLayout>
+
+</LinearLayout>

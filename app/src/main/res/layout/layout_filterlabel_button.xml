@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filter_button_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/filterlabel_button_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/filterlabel_button_image"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/conditionsearch_gray_sort" />
+
+        <TextView
+            android:id="@+id/filterlabel_button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="最新修改"
+            android:textColor="@color/gray_font_2"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</RelativeLayout>

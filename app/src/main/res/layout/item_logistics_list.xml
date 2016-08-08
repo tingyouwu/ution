@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/item_logistics_marginView"
+        android:layout_width="wrap_content"
+        android:layout_height="10dip" />
+
+    <LinearLayout
+        android:id="@+id/item_logistics_timelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/item_logistics_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="2015-7-15"
+            android:textColor="@color/gray_font_3" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id= "@+id/item_logistics_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@drawable/selector_white">
+
+        <LinearLayout
+            android:id="@+id/item_logistics_placelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/item_logistics_source"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="xxx广州1111111111111111111111111111111111111111111111111111111111111"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/item_logistics_arrow"
+                android:layout_width="25dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/arrow_right" />
+
+            <TextView
+                android:id="@+id/item_terminal_place"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="xx江门111111111111111111111111111111111111111111111111111111"
+                android:maxLines="2"
+                android:gravity="right"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/item_logistics_costlabel"
+            android:layout_width="wrap_content"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:text="运费(元):"
+            android:textSize="14sp"
+            android:layout_below="@id/item_logistics_placelayout"
+            android:textColor="@color/blue_crm"/>
+
+        <TextView
+            android:id="@+id/item_logistics_cost"
+            android:layout_width="wrap_content"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:textSize="14sp"
+            android:layout_below="@id/item_logistics_placelayout"
+            android:layout_toRightOf="@id/item_logistics_costlabel"
+            android:layout_alignTop="@id/item_logistics_costlabel"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/blue_crm"/>
+
+        <TextView
+            android:id="@+id/item_logistics_time"
+            android:layout_width="wrap_content"
+            android:layout_alignBottom="@id/item_logistics_costlabel"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:text="11:10"
+            android:textSize="14sp"
+            android:textColor="@color/gray_font_3"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

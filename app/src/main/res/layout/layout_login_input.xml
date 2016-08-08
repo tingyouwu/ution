@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_inputlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/login_icon"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/login_relationlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/login_bg" >
+
+        <TextView
+            android:id="@+id/label_e"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dip"
+            android:gravity="center_vertical"
+            android:background="@drawable/login_account" />
+
+        <EditText
+            android:id="@+id/et_account"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="5dp"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/label_e"
+            android:background="@drawable/sign_bg"
+            android:hint="帐号"
+            android:imeOptions="actionNext"
+            android:saveEnabled="true"
+            android:singleLine="true"
+            android:textSize="15sp" />
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/login_relationlayout"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/login_bg">
+
+        <TextView
+            android:id="@+id/label_psw"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:gravity="center_vertical"
+            android:background="@drawable/login_psw" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sign_bg"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/label_psw"
+            android:hint="密码"
+            android:imeOptions="actionGo"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:password="true"
+            android:saveEnabled="true"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RelativeLayout"
+        android:layout_marginTop="10dip"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <com.wty.ution.widget.CheckBoxLabel
+            android:id="@+id/btn_login_rememberpsw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:paddingBottom="15dip"
+            android:text="记住密码"
+            android:textColor="@color/blue_crm"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="43dp"
+            android:layout_below="@id/btn_login_rememberpsw"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/login_press"
+            android:gravity="center"
+            android:text="登录"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/btn_login_forgetpsw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/btn_login"
+            android:layout_below="@id/btn_login"
+            android:gravity="center"
+            android:padding="15dip"
+            android:text="忘记密码 ?"
+            android:textColor="@color/blue_crm"
+            android:textSize="15sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

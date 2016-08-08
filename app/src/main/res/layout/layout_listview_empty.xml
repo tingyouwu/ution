@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerInParent="true"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/listview_empty_img"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:src="@drawable/img_empty1" />
+
+    <View
+        android:layout_height="10dp"
+        android:layout_width="match_parent"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/listview_empty_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:textColor="@color/gray_font_3"
+        android:text="亲，没有相关数据" />
+
+    <View
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:visibility="invisible"/>
+
+</LinearLayout>

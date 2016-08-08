@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:id="@+id/section_label_layout">
+
+        <TextView
+            android:layout_marginTop="0.5dp"
+            android:id="@+id/section_label"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:text="左上角的东东"
+            android:singleLine="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <View
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/list_line"/>
+
+        <View
+            android:layout_alignParentRight="true"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/list_line"/>
+
+    </RelativeLayout>
+
+    <com.xtion.sheet.SheetRecyclerView
+        android:id="@+id/section_list_horizontal_top"
+        android:layout_alignTop="@id/section_label_layout"
+        android:layout_alignBottom="@+id/section_label_layout"
+        android:layout_toRightOf="@id/section_label_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.xtion.sheet.SheetRecyclerView
+        android:id="@+id/section_list_vertical_left"
+        android:layout_below="@id/section_label_layout"
+        android:layout_alignLeft="@id/section_label_layout"
+        android:layout_alignRight="@id/section_label_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.xtion.sheet.SheetRecyclerView
+        android:id="@+id/section_list"
+        android:layout_below="@id/section_list_horizontal_top"
+        android:layout_alignRight="@id/section_list_horizontal_top"
+        android:layout_alignLeft="@id/section_list_horizontal_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <View
+        android:layout_alignLeft="@id/section_list_horizontal_top"
+        android:layout_alignRight="@id/section_list_horizontal_top"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/list_line"/>
+
+    <View
+        android:layout_alignParentLeft="true"
+        android:layout_width="0.5dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/section_list_vertical_left"
+        android:layout_alignBottom="@id/section_list_vertical_left"
+        android:background="@color/list_line"/>
+
+</RelativeLayout>

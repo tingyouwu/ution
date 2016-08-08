@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/logistics_layout"
+    android:background="@color/layout_background"
+    android:orientation="vertical">
+
+       <com.wty.ution.widget.glasses.GlassesReportView
+           android:id="@+id/glasses_headlayout"
+           android:layout_width="fill_parent"
+           android:layout_height="100dp"/>
+
+       <com.wty.ution.widget.listview.GlasssesListView
+           android:id="@+id/glasses_listview"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:cacheColorHint="#00000000"
+           android:divider="@null"
+           android:dividerHeight="0dip"
+           android:listSelector="#00000000"
+           android:scrollbars="none"/>
+
+</LinearLayout>

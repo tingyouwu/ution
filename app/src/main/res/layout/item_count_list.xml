@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="70dip"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="70dip"
+            android:layout_height="70dip"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_chatgroup_icon"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/item_report_img"
+                    android:layout_width="50dip"
+                    android:layout_height="50dip" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="70dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/item_report_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:ellipsize="end"
+                android:maxWidth="200dip"
+                android:singleLine="true"
+                android:text="讨论组讨论组讨论组"
+                android:textColor="@color/gray_font_2"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/item_report_line"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignParentBottom="true"
+                android:background="@color/list_line" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

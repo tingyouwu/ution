@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+
+    android:gravity="top"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <EditText
+        android:id="@+id/foldlist_search_view"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+
+        android:hint="打开产品搜索"
+        android:imeOptions="actionSearch"
+        android:singleLine="true"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/foldlist_group_view"
+        android:layout_width="20dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.25"
+        android:layout_marginLeft="5.0dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/foldlist_barcode_view"
+        android:layout_width="20dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.25"
+        android:layout_marginLeft="5.0dp"
+
+        android:text="条码"
+        android:textSize="14sp" />
+
+</LinearLayout>

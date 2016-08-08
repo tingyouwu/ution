@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="45dip">
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="45dip" />
+
+    <View
+        android:id="@+id/dialog_line"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="@color/list_line"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:focusable="false"
+        android:textSize="14sp"
+        android:layout_centerInParent="true"
+        android:id="@+id/text1"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/gray_font_2"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111" />
+
+</RelativeLayout>

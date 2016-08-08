@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="slidingmenu_offset">100dp</dimen>
+    <dimen name="slidingmenu_offset_right">100dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+    <integer name="num_cols">1</integer>
+
+    <dimen name="font_size_default">14.0sp</dimen>
+    <dimen name="sticky_height">80dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="avatar_medium">60dp</dimen>
+    <dimen name="et_input_height">150dp</dimen>
+    <dimen name="bottom_linearlayout">58dp</dimen>
+    <dimen name="custom_padding_top">17dp</dimen>
+    <dimen name="img_wid_hei">78dp</dimen>
+
+    <dimen name="alert_width">300dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+
+    <dimen name="card_insets">0dp</dimen>
+    <dimen name="card_min_width">240dp</dimen>
+    <dimen name="card_staggered_height">240dp</dimen>
+</resources>

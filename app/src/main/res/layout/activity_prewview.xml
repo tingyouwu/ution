@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.androidimagetest.ImagePreviewActivity" >
+
+    <uk.co.senab.photoview.sample.HackyViewPager
+        android:id="@+id/image_prewview_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/item_prewview_backcontainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" 
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:rotation="180"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/img_nav" />
+
+        <TextView
+            android:id="@+id/item_prewview_pageidex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:layout_gravity="center_vertical"
+            android:text="3/4" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/item_prewview_save"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginRight="10dip"
+        android:padding="5dip"
+        android:src="@drawable/repository_download" />
+
+</RelativeLayout>
